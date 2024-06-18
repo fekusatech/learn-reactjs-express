@@ -35,32 +35,10 @@ Ikuti langkah-langkah di bawah ini untuk mengatur proyek di komputer Anda:
 # Menjalankan Aplikasi
 Setelah menginstal semua dependensi, Anda bisa menjalankan aplikasi dengan dua perintah berikut di terminal yang terpisah:
 
-##Menjalankan server Express
+## Menjalankan server Express
 
    ```bash
    #Copy code
    cd backend
    npm start
    # Server Express akan berjalan di http://localhost:5000
-
-
-**Berikut adalah struktur direktori proyek ini:**
-   ```bash
-   Copy code
-   learn-reactjs-express/
-   │
-   │── node_modules/ # Direktori untuk dependensi Node.js
-   │── src/          # Direktori untuk source code
-   │── .env          # File konfigurasi environment
-   └── package.json  # File konfigurasi npm
-   │
-   ├── frontend-react/         # Direktori untuk kode front-end (React)
-   │   ├── node_modules/ # Direktori untuk dependensi Node.js
-   │   ├── public/       # Direktori untuk file statis
-   │   ├── src/          # Direktori untuk source code
-   │   └── package.json  # File konfigurasi npm
-   │
-   └── README.md         # File README ini
-
-
-
