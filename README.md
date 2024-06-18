@@ -41,43 +41,26 @@ Setelah menginstal semua dependensi, Anda bisa menjalankan aplikasi dengan dua p
    #Copy code
    cd backend
    npm start
-   #Server Express akan berjalan di http://localhost:5000.
+   # Server Express akan berjalan di http://localhost:5000
 
 
-##Menjalankan aplikasi React
-
-   ```bash
-   #Copy code
-   cd frontend
-   npm start
-   #Aplikasi React akan berjalan di http://localhost:3000.
-
-##Struktur Proyek
-#Berikut adalah struktur direktori proyek ini:
-
+**Berikut adalah struktur direktori proyek ini:**
    ```bash
    Copy code
    learn-reactjs-express/
    │
-   ├── backend/          # Direktori untuk kode back-end (Express)
-   │   ├── node_modules/ # Direktori untuk dependensi Node.js
-   │   ├── src/          # Direktori untuk source code
-   │   ├── .env          # File konfigurasi environment
-   │   └── package.json  # File konfigurasi npm
+   │── node_modules/ # Direktori untuk dependensi Node.js
+   │── src/          # Direktori untuk source code
+   │── .env          # File konfigurasi environment
+   └── package.json  # File konfigurasi npm
    │
-   ├── frontend/         # Direktori untuk kode front-end (React)
+   ├── frontend-react/         # Direktori untuk kode front-end (React)
    │   ├── node_modules/ # Direktori untuk dependensi Node.js
    │   ├── public/       # Direktori untuk file statis
    │   ├── src/          # Direktori untuk source code
    │   └── package.json  # File konfigurasi npm
    │
    └── README.md         # File README ini
-Kontribusi
-Jika Anda ingin berkontribusi pada proyek ini, silakan fork repositori ini dan buat pull request dengan perubahan Anda. Kami sangat menghargai kontribusi dari komunitas.
 
-Lisensi
-Proyek ini dilisensikan di bawah MIT License.
 
-Kontak
-Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi kami di email@example.com.
 
