@@ -23,3 +23,61 @@ Ikuti langkah-langkah di bawah ini untuk mengatur proyek di komputer Anda:
    ```bash
    git clone https://github.com/username/learn-reactjs-express.git
    cd learn-reactjs-express
+2. **Instal dependensi untuk front-end dan back-end**
+   ```bash
+   # Masuk ke direktori back-end dan instal dependensi
+   cd backend
+   npm install
+   
+   # Kembali ke root dan masuk ke direktori front-end, lalu instal dependensi
+   cd ../frontend
+   npm install
+# Menjalankan Aplikasi
+Setelah menginstal semua dependensi, Anda bisa menjalankan aplikasi dengan dua perintah berikut di terminal yang terpisah:
+
+##Menjalankan server Express
+
+   ```bash
+   #Copy code
+   cd backend
+   npm start
+   #Server Express akan berjalan di http://localhost:5000.
+
+
+##Menjalankan aplikasi React
+
+   ```bash
+   #Copy code
+   cd frontend
+   npm start
+   #Aplikasi React akan berjalan di http://localhost:3000.
+
+##Struktur Proyek
+#Berikut adalah struktur direktori proyek ini:
+
+   ```bash
+   Copy code
+   learn-reactjs-express/
+   │
+   ├── backend/          # Direktori untuk kode back-end (Express)
+   │   ├── node_modules/ # Direktori untuk dependensi Node.js
+   │   ├── src/          # Direktori untuk source code
+   │   ├── .env          # File konfigurasi environment
+   │   └── package.json  # File konfigurasi npm
+   │
+   ├── frontend/         # Direktori untuk kode front-end (React)
+   │   ├── node_modules/ # Direktori untuk dependensi Node.js
+   │   ├── public/       # Direktori untuk file statis
+   │   ├── src/          # Direktori untuk source code
+   │   └── package.json  # File konfigurasi npm
+   │
+   └── README.md         # File README ini
+Kontribusi
+Jika Anda ingin berkontribusi pada proyek ini, silakan fork repositori ini dan buat pull request dengan perubahan Anda. Kami sangat menghargai kontribusi dari komunitas.
+
+Lisensi
+Proyek ini dilisensikan di bawah MIT License.
+
+Kontak
+Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi kami di email@example.com.
+
